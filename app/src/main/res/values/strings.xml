@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PDM_2022_I_P3_EQUIPO4</string>
+    <string name="title_activity_mostrar_proveedores">MostrarProveedores</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_mostrar_repartidores">MostrarRepartidores</string>
+    <string name="title_activity_mostrar_usuarios">MostrarUsuarios</string>
+    <string name="title_activity_mostrar_clientes">MostrarClientes</string>
+    <string name="title_activity_mostrar_area_laboral">MostrarAreaLaboral</string>
+    <string name="title_activity_mostrar_pedidos">MostrarPedidos</string>
+    <string name="title_activity_mostrar_articulos">MostrarArticulos</string>
+    <string name="title_activity_mostrar_categoria">MostrarCategoria</string>
+    <string name="title_activity_mostrar_estimado_entregas">MostrarEstimadoEntregas</string>
+    <string name="title_activity_mostrar_tipo_entrega">MostrarTipoEntrega</string>
+    <string name="title_activity_mostrar_estimado_entrega">MostrarEstimadoEntrega</string>
+</resources>

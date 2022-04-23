@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hn.edu.ujcv.pdm_2022_i_p3_equipo4">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PDM_2022_I_P3_EQUIPO4">
+        <activity
+            android:name=".ActualizarEstimadoEntrega"
+            android:exported="false" />
+        <activity
+            android:name=".ActualizarArticulo"
+            android:exported="false" />
+        <activity
+            android:name=".MostrarEstimadoEntrega"
+            android:exported="false"
+            android:label="@string/title_activity_mostrar_estimado_entrega"
+            android:theme="@style/Theme.PDM_2022_I_P3_EQUIPO4.NoActionBar" />
+        <activity
+            android:name=".MostrarTipoEntrega"
+            android:exported="false"
+            android:label="@string/title_activity_mostrar_tipo_entrega"
+            android:theme="@style/Theme.PDM_2022_I_P3_EQUIPO4.NoActionBar" />
+        <activity
+            android:name=".MostrarClientes"
+            android:exported="false"
+            android:label="@string/title_activity_mostrar_clientes"
+            android:theme="@style/Theme.PDM_2022_I_P3_EQUIPO4.NoActionBar" />
+        <activity
+            android:name=".MostrarUsuarios"
+            android:exported="false"
+            android:label="@string/title_activity_mostrar_usuarios"
+            android:theme="@style/Theme.PDM_2022_I_P3_EQUIPO4.NoActionBar" />
+        <activity
+            android:name=".MostrarAreaLaboral"
+            android:exported="false"
+            android:label="@string/title_activity_mostrar_area_laboral"
+            android:theme="@style/Theme.PDM_2022_I_P3_EQUIPO4.NoActionBar" />
+        <activity
+            android:name=".MostrarArticulos"
+            android:exported="false"
+            android:label="@string/title_activity_mostrar_articulos"
+            android:theme="@style/Theme.PDM_2022_I_P3_EQUIPO4.NoActionBar" />
+        <activity
+            android:name=".MostrarCategoria"
+            android:exported="false"
+            android:label="@string/title_activity_mostrar_categoria"
+            android:theme="@style/Theme.PDM_2022_I_P3_EQUIPO4.NoActionBar" />
+        <activity
+            android:name=".MostrarPedidos"
+            android:exported="false"
+            android:label="@string/title_activity_mostrar_pedidos"
+            android:theme="@style/Theme.PDM_2022_I_P3_EQUIPO4.NoActionBar" />
+        <activity
+            android:name=".MostrarRepartidores"
+            android:exported="false"
+            android:label="@string/title_activity_mostrar_repartidores"
+            android:theme="@style/Theme.PDM_2022_I_P3_EQUIPO4.NoActionBar" />
+        <activity
+            android:name=".MostrarProveedores"
+            android:exported="false"
+            android:label="@string/title_activity_mostrar_proveedores"
+            android:theme="@style/Theme.PDM_2022_I_P3_EQUIPO4.NoActionBar" />
+        <activity
+            android:name=".ActualizarAreaLaboral"
+            android:exported="false" />
+        <activity
+            android:name=".ActualizarUsuarios"
+            android:exported="false" />
+        <activity
+            android:name=".ActualizarTipoEntrega"
+            android:exported="false" />
+        <activity
+            android:name=".TipoEntrega"
+            android:exported="false" />
+        <activity
+            android:name=".EstimadoEntregas"
+            android:exported="false" />
+        <activity
+            android:name=".ActualizarCategoria"
+            android:exported="false" />
+        <activity
+            android:name=".Categoria"
+            android:exported="false" />
+        <activity
+            android:name=".Articulos"
+            android:exported="false" />
+        <activity
+            android:name=".AreaLaboral"
+            android:exported="false" />
+        <activity
+            android:name=".Usuarios"
+            android:exported="false" />
+        <activity
+            android:name=".ActualizarRepartidores"
+            android:exported="false" />
+        <activity
+            android:name=".Repartidores"
+            android:exported="false" />
+        <activity
+            android:name=".ActualizarProveedores"
+            android:exported="false" />
+        <activity
+            android:name=".Proveedores"
+            android:exported="false" />
+        <activity
+            android:name=".MenuUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".EditarCliente"
+            android:exported="false" />
+        <activity
+            android:name=".Pedido"
+            android:exported="false" />
+        <activity
+            android:name=".VerProductos"
+            android:exported="false" />
+        <activity
+            android:name=".MenuCliente"
+            android:exported="false" />
+        <activity
+            android:name=".Registrar"
+            android:exported="false" />
+        <activity
+            android:name=".LoginUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".LoginCliente"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
